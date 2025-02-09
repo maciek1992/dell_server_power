@@ -41,7 +41,7 @@ dell_server_power/
 2. Go to `HACS → Integrations → Add Repository`.
 3. Enter the repository URL:
    ```
-   https://github.com/yourusername/dell_server_power
+   https://github.com/maciek1992/dell_server_power
    ```
 4. Choose **"Integration"** type and click **Add**.
 5. Install the integration from HACS.
