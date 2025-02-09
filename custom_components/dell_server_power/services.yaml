@@ -1,0 +1,18 @@
+get_power_data:
+  name: "Get Power Data from iDRAC"
+  description: "Fetches the current power consumption from Dell iDRAC and publishes it to MQTT."
+  fields:
+    force_update:
+      description: "Force an immediate power update (true/false)."
+      example: "true"
+
+publish_power_to_mqtt:
+  name: "Publish Power Data to MQTT"
+  description: "Manually publish the latest power data to MQTT."
+  fields:
+    topic:
+      description: "MQTT topic to publish the data."
+      example: "homeassistant/sensor/dell_r620_power"
+    qos:
+      description: "QoS level for the MQTT message (0, 1, or 2)."
+      example: "0"
