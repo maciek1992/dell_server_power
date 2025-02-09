@@ -1,0 +1,10 @@
+{
+    "domain": "dell_server_power",
+    "name": "Dell Server Power Monitor",
+    "version": "1.0.0",
+    "config_flow": true,
+    "documentation": "https://github.com/maciek1992/dell_server_power",
+    "dependencies": [],
+    "requirements": ["requests", "paho-mqtt"],
+    "codeowners": ["@maciek1992"]
+  }
