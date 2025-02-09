@@ -4,7 +4,7 @@
     "domain": "dell_server_power",
     "homeassistant": "2023.1.0",
     "country": "PL",
-    "codeowners": ["@yourgithub"],
+    "codeowners": ["@maciek1992"],
     "requirements": ["requests"],
     "config_flow": true
   }
