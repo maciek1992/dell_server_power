@@ -1,0 +1,46 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Monitor Zużycia Energii Dell",
+          "description": "Monitoruj zużycie energii serwera Dell R620.",
+          "data": {
+            "idrac_ip": "Adres IP iDRAC",
+            "idrac_username": "Nazwa użytkownika iDRAC",
+            "idrac_password": "Hasło iDRAC",
+            "price_per_kwh": "Cena za 1 kWh (w walucie)"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Nie udało się połączyć z iDRAC. Sprawdź dane logowania."
+      },
+      "title": "Monitor Zużycia Energii Dell"
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Ustawienia Zużycia Energii Dell",
+          "description": "Zmodyfikuj ustawienia monitorowania energii.",
+          "data": {
+            "price_per_kwh": "Cena za 1 kWh"
+          }
+        }
+      }
+    },
+    "entity": {
+      "sensor": {
+        "dell_server_power_usage": {
+          "name": "Zużycie Energii Serwera Dell",
+          "state": "Zużycie (W)",
+          "attributes": {
+            "daily_cost": "Koszt dzienny",
+            "monthly_cost": "Koszt miesięczny",
+            "total_energy_kwh": "Całkowite zużycie (kWh)",
+            "total_cost": "Całkowity koszt",
+            "price_per_kwh": "Cena za 1 kWh"
+          }
+        }
+      }
+    }
+  }
