@@ -1,0 +1,7 @@
+{
+    "name": "Dell Server Power Monitor",
+    "content_in_root": false,
+    "domains": ["dell_server_power"],
+    "country": "PL",
+    "homeassistant": "2024.2.0"
+  }
