@@ -1,0 +1,46 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "Dell Server Power Monitor",
+          "description": "Monitor power consumption of your Dell R620 server.",
+          "data": {
+            "idrac_ip": "iDRAC IP Address",
+            "idrac_username": "iDRAC Username",
+            "idrac_password": "iDRAC Password",
+            "price_per_kwh": "Price per kWh (in currency)"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Failed to connect to iDRAC. Check credentials."
+      },
+      "title": "Dell Server Power Monitor"
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "Dell Server Power Settings",
+          "description": "Modify settings for power monitoring.",
+          "data": {
+            "price_per_kwh": "Price per kWh"
+          }
+        }
+      }
+    },
+    "entity": {
+      "sensor": {
+        "dell_server_power_usage": {
+          "name": "Dell Server Power Usage",
+          "state": "Power (W)",
+          "attributes": {
+            "daily_cost": "Daily Cost",
+            "monthly_cost": "Monthly Cost",
+            "total_energy_kwh": "Total Energy (kWh)",
+            "total_cost": "Total Cost",
+            "price_per_kwh": "Price per kWh"
+          }
+        }
+      }
+    }
+  }
