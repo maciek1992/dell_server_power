@@ -1,3 +1,0 @@
-get_power_data:
-  name: "Pobierz aktualne zużycie energii"
-  description: "Wymusza natychmiastowe pobranie danych o mocy serwera z iDRAC."
